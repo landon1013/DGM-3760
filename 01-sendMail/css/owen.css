@@ -1,0 +1,32 @@
+label {
+  display: inline-block;
+  width: 250px;
+}
+
+input {
+  height: 15px;
+  width: 200px;
+}
+
+input#description {
+  width: 400px;
+}
+
+input#whatTheyDid {
+  width: 400px;
+}
+
+input#fangSpotted {
+  width: initial;
+}
+
+textarea {
+  width: 300px;
+}
+
+input[type="submit"] {
+  width: initial;
+  border-radius: 5px;
+  height: 25px;
+  background: white;
+}

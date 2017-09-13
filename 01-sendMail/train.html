@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Send</title>
+  </head>
+  <body>
+    <h1>This page shows how to send "GET" data to a second page</h1>
+    <h2>Form Example</h2>
+    <form action="receive.php" method="GET" enctype="multipart/form-data">
+      Favorite Soft Drink <input name="soda" type="text" value="" />
+      <input type="submit" value="submit" />
+    </form>
+
+    <h2>Link Example</h2>
+    <a href="receive.php?soda=Sprite">Anyone like Sprite?</a>
+
+    <h2>Control the Zoom level of a map</h2>
+    <a href="receive.php?zoom=19" name="zoom">Zoom in close</a>
+    <a href="receive.php?zoom=1" name="zoom">Zoom Far Far away</a>
+  </body>
+</html>

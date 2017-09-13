@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Send</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <h1>VR Junkies</h1>
+    <p>Thank you for visiting please let us know how we can help you further:</p>
+
+    <form method="post" action="sendEmail.php">
+      <label for="firstname">First name:</label>
+      <input type="text" id="firstname" name="firstname" />
+      <label for="lastname">Last name:</label>
+      <input type="text" id="lastname" name="lastname" />
+      <label for="email">What is your email address?</label>
+      <input type="text" id="email" name="email" />
+      <label for="other">How can we help you?</label>
+      <textarea id="other" name="other"></textarea>
+      <label for="date">When can we contact you?</label>
+      <input type="date" id="date" name="date" />
+      <label for="subscribe">Would you like to subscribe to our list?</label>
+      <div>
+        Yes <input type="radio" id="subscribe" name="subscribe" value="yes" />
+        No <input type="radio" id="subscribe" name="subscribe" value="no" />
+      </div>
+
+      <input type="submit" value="Submit" name="submit" />
+    </form>
+  </body>
+</html>

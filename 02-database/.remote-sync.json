@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "web553.webfaction.com",
+  "target": "/home/sitesmash/webapps/dgm3760/02-database",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**",
+    "/scss/"
+  ],
+  "username": "sitesmash",
+  "watch": [],
+  "transport": "scp",
+  "password": "4uz93yr9"
+}
