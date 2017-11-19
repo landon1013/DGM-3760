@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Make a Comment</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+  <?php include_once('header.php'); ?>
   <body>
     <div id="container">
       <?php include_once('nav.php'); ?>

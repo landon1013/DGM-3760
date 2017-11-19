@@ -15,10 +15,7 @@ $result = mysqli_query($dbconnection, $query) or die ('query failed');
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+  <?php include_once('header.php'); ?>
   <body>
     <?php include_once('nav.php'); ?>
 
@@ -31,8 +28,8 @@ $result = mysqli_query($dbconnection, $query) or die ('query failed');
       // DISPLAY WHAT WE FOUND
       while ($row = mysqli_fetch_array($result)) {
         echo '<article>';
-        echo '<a class="approve" href=approve2.php?id='.$row['id'].'>Approve</a>';
-        echo '<a class="delete" href=delete.php?id='.$row['id'].'>Delete</a>';
+        echo '<div class="flex"><a class="approve" href=approve2.php?id='.$row['id'].'>Approve</a>';
+        echo '<a class="delete" href=delete.php?id='.$row['id'].'>Delete</a></div>';
         echo '<h3>'.$row['name'].'</h3>';
         echo '<p class="topic">'.$row['topic'].'</p>';
         echo '<p>'.$row['comment'].'</p>';

@@ -13,11 +13,7 @@ $result = mysqli_query($dbconnection, $query) or die ('query failed');
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Blog</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+  <?php include_once('header.php'); ?>
   <body>
     <div id="container">
       <?php include_once('nav.php'); ?>
