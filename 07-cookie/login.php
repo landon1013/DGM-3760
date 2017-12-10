@@ -37,7 +37,7 @@
     <?php echo $feedback; ?>
     <form method="post" action="login.php">
       <fieldset>
-        <legend>Log in to an existing accoung</legend>
+        <legend>Log in to an existing account</legend>
         <label><p>Username:</p><input type="text" name="username" value="<?php if (!empty($username)) echo $username;?>" /></label>
         <label><p>Password</p><input type="password" name="password" /></label>
       </fieldset>
